@@ -19,8 +19,8 @@ const TaskSchema = new Schema(
     },
     status: {
       type: String,
-      default: 'active',
-      enum: ['active', 'done']
+      default: 'backlog',
+      enum: ['backlog','in progress', 'done']
     },
     date: {
       type: Date,

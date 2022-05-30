@@ -7,9 +7,11 @@
   "private": true,
   "license": "ISC",
   "scripts": {
+
     "start": "export NODE_ENV=dev|| set NODE_ENV=dev&& node server.js",
     "prod": "export NODE_ENV=prod|| set NODE_ENV=prod&& node server.js"
   },
+
   "dependencies": {
     "ajv": "^6.12.3",
     "bluebird": "^3.7.2",

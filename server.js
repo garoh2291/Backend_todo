@@ -17,7 +17,11 @@ const app = require('./src/bootstrap/app');
  * Get port from environment and store in Express.
  */
 const port = normalize_port(config.server.api_port || '3001');
+
+
 app.set('port', port);
+
+
 
 /**
  * Create HTTP server.
