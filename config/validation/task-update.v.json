@@ -12,6 +12,10 @@
         "description": {
           "type": "string"
         },
+        "priority":{
+          "type": "string",
+          "enum": ["minor","majour","critical"]
+        },
         "status": {
           "type": "string",
           "enum": ["backlog","in progress", "done"]

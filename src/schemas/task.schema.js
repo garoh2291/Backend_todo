@@ -17,6 +17,10 @@ const TaskSchema = new Schema(
     description: {
       type: String
     },
+      priority:{
+      type: String,
+      default: 'minor',
+      enum: ['minor','majour','critical']},
     status: {
       type: String,
       default: 'backlog',
