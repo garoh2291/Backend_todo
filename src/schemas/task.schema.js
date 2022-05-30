@@ -20,7 +20,7 @@ const TaskSchema = new Schema(
       priority:{
       type: String,
       default: 'minor',
-      enum: ['minor','majour','critical']},
+      enum: ['minor','major','critical']},
     status: {
       type: String,
       default: 'backlog',
