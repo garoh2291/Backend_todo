@@ -31,7 +31,7 @@ class UserController {
             next(err);
         }
     }
-    
+    //test
     signIn = async (req, res, next)=> {
         try {
             const data = req.body;
