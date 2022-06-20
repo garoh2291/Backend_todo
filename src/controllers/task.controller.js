@@ -98,6 +98,13 @@ class TaskController {
             if(status && /^active$|^done$/ig.test(status)){
                 dbQuery.status = status;
             }
+
+
+            const {owner} = query;
+
+            if(query.owner){
+                dbQuery.owner = owner
+            }
             
             if(query.search){
                 const searchReg = new RegExp(query.search, 'ig');
