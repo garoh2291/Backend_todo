@@ -73,6 +73,30 @@ class UserController {
         .then(data => res.json(data))
         .catch(err => next(err));
     }
+
+    ////Added 
+    getBatch = async (req, res, next) => {
+        
+
+        try {
+            const {userId} = res.locals,
+                    {query} = req;
+            
+            const dbQuery = {
+                //fixme
+                // owner: userId
+            };
+    
+            
+            const users = await userSchema.find(dbQuery).exec();
+            if (!users) throw errorConfig.taskNotFound;
+
+            res.json(users);
+        }
+        catch (err) {
+            next(err)
+        }
+    }
     
     update = (req, res, next) => {
         const data = req.body;

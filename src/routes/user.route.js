@@ -20,6 +20,10 @@ userRouter.put('/', auth, validator('user-update'), userController.update);
 // Get user info
 userRouter.get('/', auth, userController.getInfo);
 
+////Added by Garnik
+// get batch users
+userRouter.get('/get-all', auth, userController.getBatch);
+
 // Sign in
 userRouter.post('/sign-in', validator('user-sign-in'), userController.signIn);
 
