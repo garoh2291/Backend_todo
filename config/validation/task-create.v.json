@@ -15,7 +15,7 @@
         "priority": {
           "type": "string"
         },
-        "assignee": {
+        "assigner": {
           "type": "string"
         },
         "date": {

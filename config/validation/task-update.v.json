@@ -13,7 +13,7 @@
         "description": {
           "type": "string"
         },
-        "assignee": {
+        "assigner": {
           "type": "string"
         },
         "priority":{
