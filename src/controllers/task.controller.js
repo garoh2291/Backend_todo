@@ -41,10 +41,10 @@ class TaskController {
             });
             if (!task) throw errorConfig.taskNotFound;
             
-            const {title, description, date, status,priority ,user} = req.body;
+            const {title, description, date, status,priority ,assignee} = req.body;
 
             title && ( task.title = title);
-            user && ( task.user = user);
+            assignee && ( task.assignee = assignee);
             priority && ( task.priority = priority);
             description && (task.description = description);
             date && ( task.date = date);
