@@ -15,6 +15,9 @@
         "priority": {
           "type": "string"
         },
+        "assignee": {
+          "type": "string"
+        },
         "date": {
           "type": "string",
           "format": "date"
