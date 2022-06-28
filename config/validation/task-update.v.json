@@ -12,9 +12,6 @@
         "description": {
           "type": "string"
         },
-        "owner": {
-          "type": "string"
-        },
         "priority":{
           "type": "string",
           "enum": ["minor","major","critical"]
