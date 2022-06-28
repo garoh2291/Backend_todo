@@ -13,7 +13,7 @@
         "description": {
           "type": "string"
         },
-        "owner": {
+        "assignee": {
           "type": "string"
         },
         "priority":{
