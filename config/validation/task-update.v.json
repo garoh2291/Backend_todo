@@ -14,7 +14,7 @@
         },
         "priority":{
           "type": "string",
-          "enum": ["minor","majour","critical"]
+          "enum": ["minor","major","critical"]
         },
         "status": {
           "type": "string",
