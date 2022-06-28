@@ -12,6 +12,9 @@
         "description": {
           "type": "string"
         },
+        "priority": {
+          "type": "string"
+        },
         "date": {
           "type": "string",
           "format": "date"
