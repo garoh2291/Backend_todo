@@ -13,9 +13,7 @@
         "description": {
           "type": "string"
         },
-        "assigner": {
-          "type": "string"
-        },
+
         "priority":{
           "type": "string",
           "enum": ["minor","major","critical"]

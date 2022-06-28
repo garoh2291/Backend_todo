@@ -15,9 +15,7 @@
         "priority": {
           "type": "string"
         },
-        "assigner": {
-          "type": "string"
-        },
+
         "date": {
           "type": "string",
           "format": "date"

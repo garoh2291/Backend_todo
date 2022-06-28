@@ -17,10 +17,7 @@ const TaskSchema = new Schema(
     description: {
       type: String
     },
-      assigner:{
-        type: String
 
-      },
       priority:{
       type: String,
       // default: 'minor',
