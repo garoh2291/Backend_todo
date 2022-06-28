@@ -18,8 +18,7 @@ const TaskSchema = new Schema(
       type: String
     },
       assignee:{
-        type:String, default: 'unassigned'
-
+        type:String, default: 'unassignee'
 
       },
       priority:{
