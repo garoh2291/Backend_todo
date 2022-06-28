@@ -13,6 +13,9 @@
         "description": {
           "type": "string"
         },
+        "user": {
+          "type": "string"
+        },
 
         "priority":{
           "type": "string",
