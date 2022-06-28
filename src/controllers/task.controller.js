@@ -108,6 +108,11 @@ class TaskController {
             if(query.owner){
                 dbQuery.owner = owner
             }
+
+            const {assignee} = query;
+            if(query.assignee){
+                dbQuery.assignee = assignee
+            }
             
             if(query.search){
                 const searchReg = new RegExp(query.search, 'ig');
